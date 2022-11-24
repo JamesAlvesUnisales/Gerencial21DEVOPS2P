@@ -30,4 +30,12 @@ public class Cliente extends PessoaAbstract{
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "email=" + email + ", telefone=" + telefone + '}';
+    }
+    
+    
+    
 }
