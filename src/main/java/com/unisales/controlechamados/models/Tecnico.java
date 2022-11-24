@@ -15,6 +15,7 @@ public class Tecnico extends PessoaAbstract{
     public Tecnico(String nome, String cargo, String nivel) {
         this.setNome(nome);
         this.setCargo(cargo);
+        
         this.nivel = nivel;
     }
 
