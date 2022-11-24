@@ -30,4 +30,8 @@ public class Cliente extends PessoaAbstract{
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
+
+    public void erroTelefone(String telefone){
+        toString(telefone)
+    }
 }
