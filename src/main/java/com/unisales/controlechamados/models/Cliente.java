@@ -35,7 +35,4 @@ public class Cliente extends PessoaAbstract{
     public String toString() {
         return "Cliente{" + "email=" + email + ", telefone=" + telefone + '}';
     }
-    
-    
-    
 }
