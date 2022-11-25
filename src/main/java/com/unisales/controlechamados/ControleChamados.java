@@ -28,7 +28,7 @@ public class ControleChamados {
         
         Chamado cAux = controle.read(1);
         
-        System.out.println(cAux);      
+        System.out.println(cAux.getCliente());      
         
         // comentario em dev
     }
