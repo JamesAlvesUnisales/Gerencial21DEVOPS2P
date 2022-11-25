@@ -78,15 +78,6 @@ public class Chamado {
 
     @Override
     public String toString() {
-        return "nrChamado = " + nrChamado;
+        return "Chamado{" + "nrChamado=" + nrChamado  + ", status=" + status + ", responsavel=" + responsavel + ", cliente=" + cliente + '}';
     }
-    
-   
-    
-    
-    
-    
-    
-    
-    
 }

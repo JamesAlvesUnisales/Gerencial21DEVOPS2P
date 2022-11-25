@@ -29,6 +29,10 @@ public class Tecnico extends PessoaAbstract{
 
     @Override
     public String toString() {
-        return super.toString(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
-    } 
+        return "Tecnico{" + "nivel=" + nivel + '}';
+    }
+
+ 
+
+
 }

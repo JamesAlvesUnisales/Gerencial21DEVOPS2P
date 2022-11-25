@@ -28,4 +28,11 @@ public abstract class PessoaAbstract {
     public void setCargo(String cargo) {
         this.cargo = cargo;
     }
+
+    @Override
+    public String toString() {
+        return "PessoaAbstract{" + "nome=" + nome + ", cargo=" + cargo + '}';
+    }
+    
+    
 }
